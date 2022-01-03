@@ -1,0 +1,111 @@
+footer{
+    position: relative;
+    background: #0a3847;
+    padding-top: 40px;
+}
+
+/******************************************************/
+
+#footerLogo{
+    display: flex;
+    justify-content: center;
+    height: 62px;
+    margin-bottom: 10px;
+}
+
+/******************************************************/
+
+#table {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+    padding-left: 45px;
+    padding-right: 45px;
+    align-items:flex-start;
+    align-content:flex-start;
+}
+.tabTitle{
+    font-size: 16px;
+    text-align: start;
+    margin-top: 50px;
+}
+#table div {
+    width: 25%;
+}
+#table li {
+    margin-top: 28px;
+}
+#table a:hover {
+    text-decoration: underline;
+}
+.follow {
+    position: relative;
+}
+.follow::before{
+    content: "";
+    display:block;
+    background-repeat: no-repeat;
+    background-size:contain;
+    position:relative;
+}
+.follow.FB::before{
+    background-image: url("../img/footer/facebook.PNG");
+    height: 18px;
+    width: 18px;
+    margin-right: 15px;
+}
+.follow.TW::before{
+    background-image: url("../img/footer/twitter.PNG");
+    height: 28px;
+    width: 28px;
+    margin-right: 7px;
+    left: -5px;
+}
+.follow.YT::before{
+    background-image: url("../img/footer/youtube.PNG");
+    height: 28px;
+    width: 28px;
+    margin-right: 7px;
+    left: -5px;
+}
+.follow.IN::before{
+    background-image: url("../img/footer/instagram.PNG");
+    height: 32px;
+    width: 32px;
+    margin-right: 7px;
+    left: -8px;
+}
+
+/******************************************************/
+
+#footerBottom {
+    text-align: center;
+ }
+#footerBottom a{
+   display: inline-block;
+   padding: 15px 10px;
+   font-size: 13px;
+   color: white;
+   font-weight: 600;
+}
+hr{
+    width: 80%;
+    height: 1px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+#footerBottom h6{
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
