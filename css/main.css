@@ -1,0 +1,237 @@
+main {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background: gray;
+}
+.howItworks {
+  width: 100%;
+  background-color:#fff;
+}
+.howItworks h2 ,.allForYou h2{
+  padding-top: 60px;
+  font-size: 22px;
+  text-align: center;
+}
+.howItworks h1,.allForYou h1 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #f86600;
+  text-align: center;
+}
+#stepsContainer,#forYouContainer{
+  display: flex;
+  justify-content: center;
+}
+.steps {
+  width: 300px;
+  margin: 20px;
+  padding-top: 20px;
+  padding-bottom: 120px;
+}
+
+/******************************************************************/
+
+.Icon {
+  height: 90px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+  position: relative;
+  margin: 30px;
+  margin-bottom: 50px;
+} 
+.step1.Icon{
+  background-image: url("../img/steps/1.png");
+}
+.Icon::before{
+  content: "";
+  display:block;
+  background-repeat: no-repeat;
+  background-size:contain;
+  position:absolute;
+  height: 35px;
+  width: 35px;
+  margin-top: 70px;
+  margin-left: 45px;
+}
+.step1.Icon::before{
+  background-image: url("../img/steps/n1.PNG");
+}
+.step2.Icon::before{
+  background-image: url("../img/steps/n2.PNG");
+}
+.step3.Icon::before{
+  background-image: url("../img/steps/n3.PNG");
+}
+.arrow::before{
+  content: "";
+  display:block;
+  background-image: url("../img/steps/arrow.PNG");
+  background-repeat: no-repeat;
+  background-size:contain;
+  position:absolute;
+  height: 15px;
+  width: 15px;
+  margin-top: 70px;
+  margin-left: -30px;
+}
+.step2.Icon{
+  background-image: url("../img/steps/2.PNG");
+}
+.step3.Icon{
+  background-image: url("../img/steps/3.png");
+}
+.Text{
+  text-align: center;
+}
+.Text h3{
+  color: #0a3847;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 10px;
+}
+.Text p{
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/******************************************************************/
+
+.downloadApp {
+  width: 100%;
+  background-color: #f86600;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding-top: 60px;
+}
+.downloadApp h1{
+  color: white;
+  font-size: 33px;
+  margin: 18px;
+  margin-top: 10px;
+  font-weight: 500;
+  transform: scale(1.15, 1);
+}
+.downloadApp span{
+  background: #261e1e;
+  padding: 7px;
+}
+#appDiv1{
+  margin-right: 110px;
+}
+#downloadButtons{
+  height: 45px;
+  margin-left: -25px;
+  margin-top: 70px;
+}
+#downloadButtons img{
+  margin-left: 3px;
+  height: 100%;
+  object-fit: contain;
+}
+#appDiv2 img{
+  width: 250px;
+}
+#appDiv2{
+  bottom: -5px;
+  position:relative;
+}
+
+/******************************************************************/
+
+.allForYou {
+  width: 100%;
+  background-color:#f8f5f2;
+}
+.allForYou h2 {
+  padding-top: 60px;
+  font-size: 22px;
+  text-align: center;
+  color: #0a3847;
+}
+.allForYou h1 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #f86600;
+  text-align: center;
+  margin-bottom: 40px;
+}
+#forYouContainer{
+  display: flex;
+  justify-content: center;
+}
+.forYou {
+  background-color: #fff;
+  width: 305px;
+  margin: 16px;
+  padding: 25px;
+  padding-bottom: 60px;
+  background-color:#fff;
+  box-shadow: 2px 2px 10px 0 rgba(128, 128, 128, 0.4);
+  justify-content: center;
+  margin-bottom: 100px;
+  box-sizing: border-box;
+}
+
+/******************************************************************/
+
+.image {
+  height: 90px;
+  width: 90px;
+  box-shadow: 2px 2px 10px 0 hsl(0deg 0% 50% / 40%);
+  border-radius:50%;
+  background: #f86600 ;
+  margin-left: 34%;
+  margin-top: -70px;
+} 
+.image::before{
+  content: "";
+  display:block;
+  background-repeat: no-repeat;
+  background-size:contain;
+  position:absolute;
+  height: 55px;
+  width: 55px;
+  margin-top: 17px;
+  margin-left: 18px;
+}
+.forYou1.image::before{
+  background-image: url("../img/forYou/01.PNG");
+  height: 45px;
+  width: 45px;
+  margin-top: 23px;
+  margin-left: 23px;
+}
+.forYou2.image::before{
+  background-image: url("../img/forYou/02.PNG");
+}
+.forYou3.image::before{
+  background-image: url("../img/forYou/03.PNG");
+}
+.allForYou li {
+  text-align:start;
+  margin-left: 55px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  position: relative;
+  transform: scale(1.1, 1);
+}
+.allForYou li::before{
+  content: "";
+  display:block;
+  background-image: url('../img/forYou/tick.PNG');
+  background-repeat: no-repeat;
+  background-size:contain;
+  position:absolute;
+  height: 18px;
+  width: 18px;
+  left: -35px;
+}
+.allForYou h3{
+margin-bottom: 40px;
+margin-top: 45px;
+}
+
